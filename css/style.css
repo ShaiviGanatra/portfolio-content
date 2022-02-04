@@ -1,0 +1,29 @@
+header{
+    margin: 10px;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    background-color: aquamarine;
+    border: 10px solid black;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+img{
+    padding: 10px;
+    margin: 10px;
+    border: black solid 10px;
+    border-radius: 10px;
+}
+
+img:hover{
+    filter: grayscale();
+}
