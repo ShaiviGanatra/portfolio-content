@@ -8,9 +8,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<a class = "skip" href="#main">Skip to main content</a>
 	<!-- Link to the favicon image -->
 	<link rel="icon" href="images/favicon.ico">
+	<!-- Link to Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
@@ -22,6 +25,7 @@
 <body>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
+		<a href="#main" class="skip">Skip to main content</a>
 		<!-- Nav is a sematic tag page that aids accessibility -->
 		<nav>
 			<ul>
@@ -32,13 +36,13 @@
 				<li class="active"><a href = "awwdelish.html">Aww,Delish!</a></li>
 			</ul>
 		</nav>
-		<!-- The h1 is a semantic tag that aids accessibility -->
-		<h1>AWW DELISH</h1>
-		<hr>
 	</header>
 
 	<!-- Every page should have a main tag for accessibility -->
 	<main id="main">
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<h1>AWW DELISH</h1>
+		<hr>
 		<p>You can't just eat good food.
             You've got to talk about it too.</p>
 
@@ -50,18 +54,20 @@
 
 		<p>Click <a href = "https://www.instagram.com/awwdelish/?hl=en">awwdelish</a> to explore more!</p>
 
-        <img src="images/awwdelish-1.png" alt="Logo of the food blogging brand of Shaivi - awwdelish" width="200"></img>
-        <img src="images/awwdelish-2.jpg" alt="Peanut Butter Stir Fry Noodles made from recipe of Every Plate" width="200"></img>
-        <img src="images/awwdelish-3.png" alt="Tradional picture of Shaahi Dahi Wada on the occasion of Diwali" width="200"></img>
-        <img src="images/awwdelish-4.jpg" alt="Garlic Cilantro Fries with Cheese Dip from Frita Batidos" width="200"></img>
-		<img src="images/awwdelish-5.jpg" alt="Pesto Cheese Sandwich image from Zoup Eatery" width="200"></img>
-		<img src="images/awwdelish-6.jpg" alt="Dragon Eye Signature Coffee cup holding in hand from Sweetwaters Coffee" width="200"></img>
-		<img src="images/awwdelish-7.jpg" alt="Margarita Flatbread Pizza from Panera Bread" width="200"></img>
-		<img src="images/awwdelish-8.jpg" alt="S'mores Deluxe cookie from Insonmia Cookies at midnight" width="200"></img>
-		<img src="images/awwdelish-9.jpg" alt="Crème Brûlée Milk Tea from Moge Tee" width="200"></img>
-		<img src="images/awwdelish-10.jpg" alt="Mediterranean Veggie Sandwich from Panera Bread" width="200"></img>
-		<img src="images/awwdelish-11.jpg" alt="Raspberry Punch Mocktail - morning feels at Aww,Delish!" width="200"></img>
-
+        <div class="food-feed">
+			<img src="images/awwdelish-1.png" alt="Logo of the food blogging brand of Shaivi - awwdelish" width="200"></img>
+			<img src="images/awwdelish-2.jpg" alt="Peanut Butter Stir Fry Noodles made from recipe of Every Plate" width="200"></img>
+			<img src="images/awwdelish-3.png" alt="Tradional picture of Shaahi Dahi Wada on the occasion of Diwali" width="200"></img>
+			<img src="images/awwdelish-4.jpg" alt="Garlic Cilantro Fries with Cheese Dip from Frita Batidos" width="200"></img>
+			<img src="images/awwdelish-5.jpg" alt="Pesto Cheese Sandwich image from Zoup Eatery" width="200"></img>
+			<img src="images/awwdelish-6.jpg" alt="Dragon Eye Signature Coffee cup holding in hand from Sweetwaters Coffee" width="200"></img>
+			<img src="images/awwdelish-7.jpg" alt="Margarita Flatbread Pizza from Panera Bread" width="200"></img>
+			<img src="images/awwdelish-8.jpg" alt="S'mores Deluxe cookie from Insonmia Cookies at midnight" width="200"></img>
+			<img src="images/awwdelish-9.jpg" alt="Crème Brûlée Milk Tea from Moge Tee" width="200"></img>
+			<img src="images/awwdelish-10.jpg" alt="Mediterranean Veggie Sandwich from Panera Bread" width="200"></img>
+			<img src="images/awwdelish-11.jpg" alt="Raspberry Punch Mocktail - morning feels at Aww,Delish!" width="200"></img>
+		</div>
+	</main>
 	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>
 		<p>Shaivi Ajay Ganatra &copy; 2022</p>

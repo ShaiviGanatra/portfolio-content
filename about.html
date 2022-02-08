@@ -10,6 +10,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<!-- Link to the favicon image -->
 	<link rel="icon" href="images/favicon.ico">
+	<!-- Link to Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 	<!-- Link to the reset file -->
 	<link rel="stylesheet" href="css/html5reset.css">
 	<!-- Link to the stylesheet -->
@@ -21,6 +25,7 @@
 <body>
 	<!-- Header is a sematic tag page that aids readability -->
 	<header>
+		<a href="#main" class="skip">Skip to main content</a>
 		<!-- Nav is a sematic tag page that aids accessibility -->
 		<nav>
 			<ul>
@@ -31,29 +36,29 @@
 				<li><a href = "awwdelish.html">Aww,Delish!</a></li>
 			</ul>
 		</nav>
-		<!-- The h1 is a semantic tag that aids accessibility -->
-		<h1>ABOUT</h1>
-		<hr>
 	</header>
 
 	<!-- Every page should have a main tag for accessibility -->
-	<main>
-		<p>
-			I am a Techie turned Designer.
-			I did my undergrad in Computer Engineering where I learnt various tools, applications, internal systems, coding and important CS concepts.
-			But something that always fascinated me more was the design and the reason why that code is being written.
-			Hence, here I am, an amazing designer with a developer perspective.
-		</p>
+	<main id="main">
+		<!-- The h1 is a semantic tag that aids accessibility -->
+		<div class="intro">
+			<h1>ABOUT</h1>
+			<hr>
+			<p>
+				I am a Graduate Student and a Research Assistant studying Human Computer Interaction at University of Michigan, Ann Arbor.
+				"I believe that curiosity and desire are the keys to gain insights in life."
+				Curiosity towards connection of art, technology, creativity and desire to implement those thoughts into reality drives me each morning to grow more.
+			</p>
 
-		<p>
-			I am a Graduate Student and a Research Assistant studying Human Computer Interaction at University of Michigan, Ann Arbor.
-			"I believe that curiosity and desire are the keys to gain insights in life."
-			Curiosity towards connection of art, technology, creativity and desire to implement those thoughts into reality drives me each morning to grow more.
-		</p>
-
-        <img src="images/knowshaivi-2.jpg" alt="Shaivi's image and she posing besides the lake bank with the mackinac bridge in the background" width="200"></img>
-        <img src="images/knowshaivi-3.jpg" alt="Shaivi's image while she posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
-
+			<p>
+				I did my undergrad in Computer Engineering where I learnt various tools, applications, internal systems, coding and important CS concepts.
+				But something that always fascinated me more was the design and the reason why that code is being written.
+				Hence, here I am, an amazing designer with a developer perspective.
+			</p>
+			<img src="images/knowshaivi-2.jpg" alt="Shaivi's image and she posing besides the lake bank with the mackinac bridge in the background" width="200"></img>
+			<img src="images/knowshaivi-3.jpg" alt="Shaivi's image while she posing in front of a huge true on a sunny day in Ann Arbor" width="200"></img>
+		</div>
+	</main>
 	<!-- Footer is a sematic tag page that aids readability -->
 	<footer>
 		<p>Shaivi Ajay Ganatra &copy; 2022</p>
